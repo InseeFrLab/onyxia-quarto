@@ -16,15 +16,15 @@ To start a new presentation:
 quarto use template InseeFrLab/onyxia-quarto
 ```
 
-## Going further
-
-Read the [Quarto documentation on reveal.js format](https://quarto.org/docs/presentations/revealjs/)
-
 ## Build the presentation
 
 ``` bash
 quarto render mydocument.qmd
 ```
+
+## Going further
+
+Read the [Quarto documentation on reveal.js format](https://quarto.org/docs/presentations/revealjs/)
 
 ## License
 
