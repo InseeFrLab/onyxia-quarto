@@ -35,3 +35,8 @@ format:
 
 3. Read the [Quarto documentation on reveal.js format](https://quarto.org/docs/presentations/revealjs/)
 
+. . .
+
+4. ``` bash
+   quarto render mydocument.qmd
+   ```
