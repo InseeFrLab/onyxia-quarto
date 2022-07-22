@@ -1,10 +1,10 @@
 # onyxia-quarto
 
-A Quarto extension for authoring Onyxia presentations.
+A Quarto extension for authoring Onyxia presentations
 
 ## Requirements
 
-You need Quarto (>= 1.0.15).
+You need [Quarto](https://quarto.org) (>= 1.0.15).
 
 For Onyxia users, Quarto is available in [VSCode services](https://datalab.sspcloud.fr/launcher/inseefrlab-helm-charts-datascience/vscode?autoLaunch=true).
 
