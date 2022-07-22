@@ -1,0 +1,15 @@
+title: Onyxia Presentation
+author: Romain Lesur
+version: 0.1.0
+contributes:
+  formats:
+    revealjs:
+      filters: [bg.lua]
+      theme: [default, onyxia.scss]
+      css: [logo.css]
+      title-slide-attributes:
+        data-background-image: background.png
+      format-resources:
+        - logo.svg
+        - background.png
+       
