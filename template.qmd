@@ -1,9 +1,37 @@
 ---
-title: "Presentation"
-subtitle: "LexConf 2022"
-author: "Your Name"
+title: Onyxia
+subtitle: |
+  **[The open source\
+  cloud native\
+  data science platform]{.orange}**
+author: DIIT
 date: today
-format: onyxia-revealjs
+#lang: fr
+format:
+  onyxia-revealjs:
+    slide-number: true
+    # for blind readers:
+    slide-tone: true
+    # for Olivier:
+    chalkboard: # press the B key to toggle chalkboard
+      theme: whiteboard
+    # uncomment to use the multiplex mode
+    #multiplex: true
 ---
 
-# Overview
+## How to use this template?
+
+1. You need Quarto and great news!  
+   Quarto is already installed in the
+   [VSCode service](https://datalab.sspcloud.fr/launcher/inseefrlab-helm-charts-datascience/vscode?autoLaunch=true)
+
+. . .
+
+2. ``` bash
+   quarto use template InseeFrLab/onyxia-quarto
+   ```
+
+. . .
+
+3. Read the [Quarto documentation on reveal.js format](https://quarto.org/docs/presentations/revealjs/)
+
