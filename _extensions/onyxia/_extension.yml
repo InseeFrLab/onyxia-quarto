@@ -8,8 +8,9 @@ contributes:
       theme: [default, onyxia.scss]
       css: [logo.css]
       title-slide-attributes:
-        data-background-image: background.png
+        data-background-image: background.svg
+        data-background-size: contain
       format-resources:
         - logo.svg
-        - background.png
+        - background.svg
        
