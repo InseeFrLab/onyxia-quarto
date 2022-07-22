@@ -17,6 +17,8 @@ format:
       theme: whiteboard
     # uncomment to use the multiplex mode
     #multiplex: true
+    footer: |
+      [onyxia.sh](https://www.onyxia.sh)
 ---
 
 ## How to use this template?
