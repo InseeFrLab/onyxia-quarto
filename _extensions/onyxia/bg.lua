@@ -1,6 +1,11 @@
+local function copyResource(file)
+    path = quarto.utils.resolvePath(file)
+    quarto.doc.addFormatResource(path)
+end
+
 function Header(el)
-    backgroundImagePath = quarto.utils.resolvePath('background.svg')
-    quarto.doc.addFormatResource(backgroundImagePath)
+    copyResource('background.svg')
+    copyResource('favicon-32x32.png')
     if not el.attributes['background-image'] then
         el.attributes['background-image'] = 'background.svg'
         el.attributes['background-size'] = 'contain'
