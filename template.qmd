@@ -6,7 +6,7 @@ subtitle: |
   data science platform]{.orange}**
 author: DIIT
 date: today
-#lang: fr
+#lang: fr-FR
 format:
   onyxia-revealjs:
     slide-number: true
