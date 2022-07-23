@@ -2,23 +2,27 @@
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
-$font-family-sans-serif: 'Work Sans', sans-serif;
-$presentation-font-size-root: 36px;
+$work-sans: 'Work Sans', sans-serif;
+$font-family-sans-serif: $work-sans !default;
+$presentation-font-size-root: 36px !default;
 
 // Colors
 $orange: rgb(255, 86, 44);
-$body-color: rgb(44, 50, 63);
+$black: rgb(44, 50, 63);
+$white: rgb(241, 240, 235);
+$green: rgb(186, 255, 41);
+$body-color: $black !default;
 $presentation-heading-text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 $presentation-h1-text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-$presentation-heading-font-weight: bold;
-$body-bg: rgb(241, 240, 235);
-$link-color: $orange;
-$light-bg-text-color: rgb(44, 50, 63);
-$light-bg-link-color: $orange;
-$light-bg-code-color: $orange;
-$dark-bg-text-color: rgb(241, 240, 235);
-$dark-bg-link-color: $orange;
-$dark-bg-code-color: rgb(186, 255, 41);
+$presentation-heading-font-weight: bold !default;
+$body-bg: $white !default;
+$link-color: $orange !default;
+$light-bg-text-color: $black !default;
+$light-bg-link-color: $orange !default;
+$light-bg-code-color: $orange !default;
+$dark-bg-text-color: $white !default;
+$dark-bg-link-color: $orange !default;
+$dark-bg-code-color: $green !default;
 
 /*-- scss:rules --*/
 .orange {
