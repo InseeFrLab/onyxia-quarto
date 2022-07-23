@@ -1,6 +1,10 @@
 # onyxia-quarto
 
-A Quarto extension for authoring Onyxia presentations
+A Quarto extension for authoring [Onyxia](https://github.com/InseeFrLab/onyxia) documents.
+
+## Available formats
+
+For now, there is only one available format: `onyxia-revealjs`.
 
 ## Requirements
 
