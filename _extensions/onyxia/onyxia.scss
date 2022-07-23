@@ -1,11 +1,12 @@
-// Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
-
 /*-- scss:defaults --*/
 
-$orange: rgb(255, 86, 44);
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 $font-family-sans-serif: 'Work Sans', sans-serif;
 $presentation-font-size-root: 36px;
+
+// Colors
+$orange: rgb(255, 86, 44);
 $body-color: rgb(44, 50, 63);
 $presentation-heading-text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 $presentation-h1-text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
