@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/6702424/180605352-72b477d9-e54a-4a81-9
 
 ## Available formats
 
-For now, there is only one available format: `onyxia-revealjs`.
+For now, there is only one available format: [`onyxia-revealjs`](https://inseefrlab.github.io/onyxia-quarto/).
 
 ## Requirements
 
