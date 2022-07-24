@@ -21,9 +21,8 @@ chalkboard: # press the B key to toggle chalkboard
 #multiplex: true
 format:
   # pick the light mode (onyxia-revealjs) or the dark mode (onyxia-dark-revealjs)
-  onyxia-revealjs:
-  #onyxia-dark-revealjs:
-    output-file: index.html
+  onyxia-dark-revealjs:
+    output-file: dark-mode.html
 ---
 
 ## How to use this template?
