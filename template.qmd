@@ -6,6 +6,7 @@ subtitle: |
   data science platform]{.orange}**
 author: DIIT
 date: today
+output-file: index.html
 #lang: fr-FR
 format:
   onyxia-revealjs:

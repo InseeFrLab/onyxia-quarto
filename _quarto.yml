@@ -1,0 +1,3 @@
+project:
+  render:
+    - template.qmd
