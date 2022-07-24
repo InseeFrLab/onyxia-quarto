@@ -24,7 +24,7 @@ format:
 
 ## How to use this template?
 
-1. You need Quarto and great news!  
+1. You need [Quarto](https://quarto.org/) and great news!  
    Quarto is already installed in the
    [VSCode service](https://datalab.sspcloud.fr/launcher/inseefrlab-helm-charts-datascience/vscode?autoLaunch=true)
 
