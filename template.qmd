@@ -4,22 +4,27 @@ subtitle: |
   **[The open source\
   cloud native\
   data science platform]{.orange}**
-author: DIIT
+author: |
+  [InseeFrLab](https://github.com/InseeFrLab)
 date: today
-output-file: index.html
+slide-number: true
+footer: |
+  **[onyxia.sh](https://www.onyxia.sh)**
+# uncomment for French presentations:
 #lang: fr-FR
+# for blind readers:
+slide-tone: true
+# for @olevitt:
+chalkboard: # press the B key to toggle chalkboard
+  theme: whiteboard
+# uncomment to use the multiplex mode:
+#multiplex: true
 format:
+  # pick the light mode (onyxia-revealjs) or the dark mode (onyxia-dark-revealjs)
   onyxia-revealjs:
-    slide-number: true
-    # for blind readers:
-    slide-tone: true
-    # for Olivier:
-    chalkboard: # press the B key to toggle chalkboard
-      theme: whiteboard
-    # uncomment to use the multiplex mode
-    #multiplex: true
-    footer: |
-      **[onyxia.sh](https://www.onyxia.sh)**
+    output-file: index.html
+  onyxia-dark-revealjs:
+    output-file: dark-mode.html
 ---
 
 ## How to use this template?
@@ -36,10 +41,17 @@ format:
 
 . . .
 
-3. Read the [Quarto documentation on reveal.js format](https://quarto.org/docs/presentations/revealjs/)
+3. Choose the format:
+
+   - `onyxia-revealjs` ([light mode](https://inseefrlab.github.io/onyxia-quarto/))
+   - `onyxia-dark-revealjs` ([dark mode](https://inseefrlab.github.io/onyxia-quarto/dark-mode.html))
 
 . . .
 
 4. ``` bash
    quarto render mydocument.qmd
    ```
+
+. . .
+
+5. Read the [Quarto documentation on reveal.js format](https://quarto.org/docs/presentations/revealjs/)

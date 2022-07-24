@@ -1,5 +1,5 @@
 *.html
 *_files
-/background.svg
+/background*.svg
 /favicon-32x32.png
 /.quarto/
