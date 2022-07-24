@@ -1,12 +1,15 @@
 # onyxia-quarto
 
-A [Quarto](https://quarto.org) extension for authoring [Onyxia](https://github.com/InseeFrLab/onyxia) documents.  
+A [Quarto](https://quarto.org) extension for authoring [Onyxia](https://github.com/InseeFrLab/onyxia) Reveal.js presentations.  
 
 https://user-images.githubusercontent.com/6702424/180605352-72b477d9-e54a-4a81-9137-5d2f24b81b78.mov  
 
 ## Available formats
 
-For now, there is only one available format: [`onyxia-revealjs`](https://inseefrlab.github.io/onyxia-quarto/).
+This extension provide two `revealjs` formats:
+
+- [`onyxia-revealjs`](https://inseefrlab.github.io/onyxia-quarto/) (light mode)
+- [`onyxia-dark-revealjs`](https://inseefrlab.github.io/onyxia-quarto/dark-mode.html) (dark mode)
 
 ## Requirements
 
