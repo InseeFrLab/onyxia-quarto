@@ -24,6 +24,9 @@ format:
   onyxia-revealjs:
   #onyxia-dark-revealjs:
     output-file: index.html
+# visual editor configuration:
+editor:
+  render-on-save: true
 ---
 
 ## How to use this template?
