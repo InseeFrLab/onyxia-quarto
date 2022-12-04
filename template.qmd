@@ -11,7 +11,7 @@ slide-number: true
 footer: |
   **[onyxia.sh](https://www.onyxia.sh)**
 # uncomment for French presentations:
-#lang: fr-FR
+#lang: fr
 # for blind readers:
 slide-tone: true
 # for @olevitt:
