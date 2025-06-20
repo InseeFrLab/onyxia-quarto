@@ -7,7 +7,7 @@ contributes:
       filters: [bg.lua]
       theme:
         - default
-        - onyxia.scss
+        - onyxia-dark.scss
       css: [logo.css]
       title-slide-attributes:
         data-background-image: background-dark.svg
